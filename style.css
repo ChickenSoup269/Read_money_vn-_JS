@@ -49,12 +49,11 @@ h1 {
 }
 
 .F8 {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-
   width: 500px;
   padding: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 5px;
   background-color: #ee833b;
   color: white;
@@ -166,16 +165,6 @@ ul li.checked::before {
   width: 7px;
 }
 
-#myTable {
-  width: 60%;
-  margin: 20px auto;
-}
-
-.column-money,
-.column-delete {
-  width: 20px;
-}
-
 .delete-btn {
   border: none;
   padding: 12px 12px;
@@ -188,11 +177,17 @@ ul li.checked::before {
   cursor: pointer;
 }
 
+#myTable {
+  width: 60%;
+
+  margin: 20px auto;
+}
+
 table,
 td,
 th {
   border: 1px solid #ddd;
-  font-size: 0.8rem;
+
   text-align: center;
 }
 
