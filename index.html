@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đọc số tiền VNĐ</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Đọc số tiền</h1>
+    <button class="toggle-btn" onclick="toggleDarkMode()">Chuyển chế độ sáng/tối</button>
+    <div class="form-money" id="myDIV">
+        <div class="form-type-money">
+            <label for="money">Nhập số tiền: </label>
+            <input type="number" id="myInput" placeholder="Nhập số tiền... ">
+            <input onclick="newElement()" class="addBtn" type="submit" value="Nhập">
+        </div>
+    </div>
+    <p class="F8">Đọc số tiền VNĐ được lấy cảm hứng code từ trang f8</p>
+</body>
+
+
+<table id="myTable" border="1">
+    <thead>
+        <tr>
+            <th class="column-money">Số tiền</th>
+            <th class="column-money-text">Số tiền (chữ)</th>
+            <th class="column-delete">Xóa</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <!-- Dữ liệu sẽ được thêm vào đây -->
+    </tbody>
+</table>
+
+<script src="./main.js"></script>
+<script src="./todo_list.js"></script>
+
+</html>

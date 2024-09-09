@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  color: black;
+  background-color: white;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Chế độ tối */
+body.dark-mode {
+  color: white;
+  background-color: #252830;
+}
+
+/* Nút chuyển đổi */
+.toggle-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  text-transform: capitalize;
+  background-color: rgb(22, 177, 255);
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: rgba(255, 255, 255, 0.336) 0px 10px 20px,
+    rgba(9, 209, 244, 0.712) 0px 6px 6px;
+}
+
+.F8 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ee833b;
+  color: white;
+  font-weight: 500;
+}
+
+.form-money {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form-type-money {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  /* box-shadow: rgba(240, 69, 46, 0.932) 0px 5px,
+    rgba(240, 101, 46, 0.904) 0px 10px, rgb(240, 208, 46) 0px 15px,
+    rgba(244, 233, 20, 0.908) 0px 20px, rgba(143, 241, 6, 0.918) 0px 25px; */
+}
+.form-type-money label {
+  color: black;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  transition: 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+input[type="submit"]:hover {
+  transition: 0.4s;
+  cursor: pointer;
+  background-color: rgb(45, 143, 255);
+}
+
+/* Remove margins and padding from the list */
+ul {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  color: black;
+  background: #fcfcfc;
+  font-size: 18px;
+  transition: 0.2s;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #b1ffb7;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #080808;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+  content: "";
+  position: absolute;
+  border-color: #020202;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+#myTable {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.column-money,
+.column-delete {
+  width: 20px;
+}
+
+.delete-btn {
+  border: none;
+  padding: 12px 12px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(232, 25, 25, 0.88);
+}
+
+.delete-btn:hover {
+  cursor: pointer;
+}
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 15px;
+}
