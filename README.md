@@ -1,5 +1,5 @@
-# Đọc số tiền bằng javascript F8
-
+# Đọc số tiền bằng javascript F8 [![My Skills](https://skillicons.dev/icons?i=js,)](https://skillicons.dev)
+ 
 - Mình chỉ lấy code về custom lại một chút thui giao diện có hơi xấu sao này cập nhật thêm.
 
 > link video
