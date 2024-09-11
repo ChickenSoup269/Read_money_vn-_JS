@@ -10,10 +10,7 @@
 
 ## Screenshot
 
-<kbd>
-<img src="./Screenshots/Screenshot 2024-09-09 215310.png" />
-</kbd>
 
-<kbd>
+<img src="./Screenshots/Screenshot 2024-09-09 215310.png" />
+
 <img src="./Screenshots/Screenshot 2024-09-09 215316.png" />
-</kbd>
